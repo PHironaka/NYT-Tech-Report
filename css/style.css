@@ -48,6 +48,7 @@ img {
   padding: 30px 30px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
   margin: 2em 0;
+  border-radius: 10px;
 }
 
 .Business, .Technology, .Magazine, .Sports, .Food, .Science, .World  {
