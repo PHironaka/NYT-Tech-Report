@@ -1,6 +1,8 @@
 body{
   font-family: 'Source Code Pro', monospace;
-
+    border-top: 7px dashed;
+  padding: 0;
+  margin: 0;
 }
 h1{
   text-align: center;
@@ -30,13 +32,6 @@ img {
   max-width: 100%;
 }
 
-.tech-story {
-  padding: 30px 30px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
-  margin: 2em 0;
-}
-
-
 .wrapper {
   max-width: 50em;
   margin-left: auto;
@@ -46,6 +41,50 @@ img {
   position: relative;
   padding: 0 2.55555em;
   overflow: hidden;
+}
+
+
+.tech-story {
+  padding: 30px 30px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
+  margin: 2em 0;
+}
+
+.Business, .Technology, .Magazine, .Sports, .Food, .Science, .World  {
+  max-width: 150px;
+  text-align: center;
+  color: white;
+  padding: 8px 6px;
+  border-radius: 8px;
+}
+
+.Business {
+  background-color: purple;
+}
+
+.Technology {
+  background-color: blue;
+}
+
+.Magazine {
+  background-color: #03c752;
+}
+
+.Sports {
+  background-color: pink;
+}
+
+.Food {
+  background-color: salmon;
+}
+
+.Science {
+  background-color: #88b912;
+}
+
+.World {
+  background-color: #bf4a4a;
+
 }
 
 footer {

@@ -16,7 +16,7 @@ $.ajax({
       $('#best-seller-titles').append('<div id="' + story.section + '" class="tech-story">'+ '<img src="' + storyImage.url + '" /><a href="' + storyURL + '" ><h2>' +
         storyTitle + '</h2></a><p>' +
         storyExcerpt + '</p>' +  '<p>' + storyCaption + '</p>'
-      +  '<p>' + date + '</p>'  );
+      +  '<p>' + date + '</p>' + '<p class="' + story.section + '">' + story.section + '</p>'  );
 
       // $('#' + topStory.rank).attr('nyt-rank', story.rank);
     });
