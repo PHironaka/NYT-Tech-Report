@@ -9,11 +9,14 @@ $.ajax({
       var storyURL = story.url || 'n/a';
       var storyExcerpt = story.byline || '';
       var storyCaption = story.abstract || '';
+      var date = story.published_date || '';
+      var views = story.num_results || '';
       var storyImage = story.multimedia[4];
 
       $('#best-seller-titles').append('<div id="' + story.section + '" class="tech-story">'+ '<img src="' + storyImage.url + '" /><a href="' + storyURL + '" ><h2>' +
         storyTitle + '</h2></a><p>' +
-        storyExcerpt + '</p>' + '<p>' + storyCaption + '</p>');
+        storyExcerpt + '</p>' +  '<p>' + storyCaption + '</p>'
+      +  '<p>' + date + '</p>'  );
 
       // $('#' + topStory.rank).attr('nyt-rank', story.rank);
     });

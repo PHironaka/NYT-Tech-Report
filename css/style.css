@@ -1,18 +1,29 @@
 body{
-  font-family: 'VT323', monospace;
+  font-family: 'Source Code Pro', monospace;
 
 }
 h1{
   text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  color: #666;
 }
 
 img {
@@ -35,4 +46,8 @@ img {
   position: relative;
   padding: 0 2.55555em;
   overflow: hidden;
+}
+
+footer {
+  text-align: center;
 }
